@@ -1,0 +1,15 @@
+import Head from 'next/head'
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>MacSportsTrends</title>
+      </Head>
+      <main>
+        <h1>Welcome to MacSportsTrends!</h1>
+        <p>Sports betting analytics platform</p>
+      </main>
+    </div>
+  )
+}
